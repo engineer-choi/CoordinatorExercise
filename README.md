@@ -3,6 +3,8 @@
 **CoordinatorLayout은 화면 스크롤시 AppBar와 RecyclerView의 연동을 다루거나,**
 **BottomSheet를 이용할 때 사용되는 레이아웃이다**
 
+![appbar](https://user-images.githubusercontent.com/54485132/76851628-ee3e6c80-688c-11ea-91a9-775eb2c0663b.gif)
+
 # 1. 스타일 적용하기
 ```xml
      <style name="Lab3Theme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -15,6 +17,8 @@
 ```
 
 # 2. Manifest에 스타일 적용하기
+![manifest](https://user-images.githubusercontent.com/54485132/76851631-ef6f9980-688c-11ea-85bc-1426ba56d6a5.png)
+
 
 # 3. gradle 설정하기
 > 아래 코드를 추가한다
@@ -73,6 +77,8 @@ implementation 'com.google.android.material:material:1.1.0’
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 ```
+
+![layout_xml](https://user-images.githubusercontent.com/54485132/76851637-f1395d00-688c-11ea-848d-42c22e9fec9e.png)
 
 # 5. 상단바 설정
 Lab18_3Activity에서 
