@@ -5,7 +5,7 @@
 ## CoordinatorLayout으로 해당 요소들을 감싸주는 것이 기본이다.
 
 
-# (1) AppBar와 RecyclerView의 연동&#128215;
+# &#128215; (1) AppBar와 RecyclerView의 연동
 
 ![appbar](https://user-images.githubusercontent.com/54485132/76851628-ee3e6c80-688c-11ea-91a9-775eb2c0663b.gif)
 
@@ -94,18 +94,23 @@ Lab18_3Activity에서
 
 
 
-# (2) BottomSheet 사용하기&#128215;
+# &#128215;(2) BottomSheet 사용하기
 
 **BottomSheet는 일반적인 것과 다이얼로그 형태(modal) 두 가지가 있다.**
 <center>
     <div>
-        <img src="https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png" width="33%">
-        <img src="https://user-images.githubusercontent.com/54485132/76852995-d6b4b300-688f-11ea-981f-fa41922fb1fe.png" width="33%">
-        <img src="https://user-images.githubusercontent.com/54485132/76852999-d87e7680-688f-11ea-9bdd-01f5a1648721.png" width="33%">
+        <img src="https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png" width="30%">
+        <img src="https://user-images.githubusercontent.com/54485132/76852995-d6b4b300-688f-11ea-981f-fa41922fb1fe.png" width="30%">
+        <img src="https://user-images.githubusercontent.com/54485132/76852999-d87e7680-688f-11ea-9bdd-01f5a1648721.png" width="30%">
     </div>
 </center>
+
 ![GIF](https://user-images.githubusercontent.com/54485132/76852989-d4525900-688f-11ea-9357-12fa82405f8d.gif)
+
+
 **구현 방법은 다음과 같다.**
+
+
 ## 1. gradle 설정
 ```
   implementation 'com.google.android.material:material:1.1.0'
