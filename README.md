@@ -4,8 +4,8 @@
 
 ## CoordinatorLayout으로 해당 요소들을 감싸주는 것이 기본이다.
 
-&#128215;
-# (1) AppBar와 RecyclerView의 연동
+
+# (1) AppBar와 RecyclerView의 연동&#128215;
 
 ![appbar](https://user-images.githubusercontent.com/54485132/76851628-ee3e6c80-688c-11ea-91a9-775eb2c0663b.gif)
 
@@ -93,11 +93,11 @@ Lab18_3Activity에서
 으로 상단바를 연동해주면 된다.
 
 
-&#128215;
-# (2) BottomSheet 사용하기
+
+# (2) BottomSheet 사용하기&#128215;
 
 **BottomSheet는 일반적인 것과 다이얼로그 형태(modal) 두 가지가 있다.**
-
+![GIF](https://user-images.githubusercontent.com/54485132/76852989-d4525900-688f-11ea-9357-12fa82405f8d.gif)
 **구현 방법은 다음과 같다.**
 ## 1. gradle 설정
 ```
@@ -146,7 +146,7 @@ Lab18_3Activity에서
 > **Bottom Sheet로 이용할 부분을 LinearLayout에 넣어두고,
 app:behavior...들로 설정함.
 peekHeight는 기본 높이, hidable 속성으로 숨기거나 올릴 수 있다.**
-
+![layout](https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png)
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
