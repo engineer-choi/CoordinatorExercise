@@ -97,6 +97,13 @@ Lab18_3Activity에서
 # (2) BottomSheet 사용하기&#128215;
 
 **BottomSheet는 일반적인 것과 다이얼로그 형태(modal) 두 가지가 있다.**
+<center>
+    <div>
+        <img src="https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png" width="33%">
+        <img src="https://user-images.githubusercontent.com/54485132/76852995-d6b4b300-688f-11ea-981f-fa41922fb1fe.png" width="33%">
+        <img src="https://user-images.githubusercontent.com/54485132/76852999-d87e7680-688f-11ea-9bdd-01f5a1648721.png" width="33%">
+    </div>
+</center>
 ![GIF](https://user-images.githubusercontent.com/54485132/76852989-d4525900-688f-11ea-9357-12fa82405f8d.gif)
 **구현 방법은 다음과 같다.**
 ## 1. gradle 설정
@@ -146,7 +153,9 @@ Lab18_3Activity에서
 > **Bottom Sheet로 이용할 부분을 LinearLayout에 넣어두고,
 app:behavior...들로 설정함.
 peekHeight는 기본 높이, hidable 속성으로 숨기거나 올릴 수 있다.**
+
 ![layout](https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png)
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
