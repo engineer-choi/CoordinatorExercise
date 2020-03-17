@@ -159,7 +159,9 @@ Lab18_3Activity에서
 app:behavior...들로 설정함.
 peekHeight는 기본 높이, hidable 속성으로 숨기거나 올릴 수 있다.**
 
+
 ![layout](https://user-images.githubusercontent.com/54485132/76853003-d9afa380-688f-11ea-9512-3513ba92b70f.png)
+
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
